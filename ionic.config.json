@@ -1,0 +1,7 @@
+{
+  "name": "Spinverse",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
