@@ -1,0 +1,26 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Videos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list *ngIf="!selectedVideoId">
+    <ion-item *ngFor="let video of videos" (click)="playVideo(video.id.videoId)">
+      <ion-thumbnail slot="start">
+        <img [src]="video.snippet.thumbnails.default.url" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ video.snippet.title }}</h2>
+        <p>{{ video.snippet.description }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- Componente de reproducción en pantalla completa -->
+  <app-video-player
+    *ngIf="selectedVideoId"
+    [videoId]="selectedVideoId"
+    (close)="closeVideoPlayer()"
+  ></app-video-player>
+</ion-content>

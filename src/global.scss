@@ -1,37 +1,39 @@
-/*
- * App Global CSS
- * ----------------------------------------------------------------------------
- * Put style rules here that you want to apply globally. These styles are for
- * the entire app and not just one component. Additionally, this file can be
- * used as an entry point to import other CSS/Sass files to be included in the
- * output CSS.
- * For more information on global stylesheets, visit the documentation:
- * https://ionicframework.com/docs/layout/global-stylesheets
- */
+body {
+  background-color: var(--ion-background-color);
+  color: var(--ion-text-color);
+  font-family: 'Roboto', sans-serif;
+}
 
-/* Core CSS required for Ionic components to work properly */
-@import "@ionic/angular/css/core.css";
+.roulette {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--background-color), #000);
+  border: 5px solid var(--primary-color); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); 
+}
 
-/* Basic CSS for apps built with Ionic */
-@import "@ionic/angular/css/normalize.css";
-@import "@ionic/angular/css/structure.css";
-@import "@ionic/angular/css/typography.css";
-@import "@ionic/angular/css/display.css";
+.spin-button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 40px;
+  color: var(--ion-background-color); 
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-/* Optional CSS utils that can be commented out */
-@import "@ionic/angular/css/padding.css";
-@import "@ionic/angular/css/float-elements.css";
-@import "@ionic/angular/css/text-alignment.css";
-@import "@ionic/angular/css/text-transformation.css";
-@import "@ionic/angular/css/flex-utils.css";
+.spin-button:hover {
+  background-color: var(--accent-color); 
+}
 
-/**
- * Ionic Dark Mode
- * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
- */
-
-/* @import "@ionic/angular/css/palettes/dark.always.css"; */
-/* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+ion-button {
+  --background: var(--accent-color);
+  --color: var(--text-color); 
+  --background-activated: var(--primary-color); 
+}

@@ -1,2 +1,100 @@
-// For information on how to create your own theme, please see:
-// http://ionicframework.com/docs/theming/
+// Fondo general y estilos de texto
+// :root {
+//   --ion-background-color: #000000;
+//   --ion-text-color: #FFFFFF;
+// }
+
+/* -------------------------------------------
+   PALETA 1: Oscura con Acento Azul (Twitter)
+   -------------------------------------------
+*/
+// :root {
+//   --ion-background-color: #0D1117;
+//   --ion-text-color: #C9D1D9;
+//   --accent-color: #1DA1F2; // Azul brillante
+//   --primary-color: #1DA1F2; // Azul brillante para botones
+//   --background-color: #21262D; // Fondo de componentes
+//   --text-color: #FAFAFA; // Texto casi blanco
+//   --warning-color: #F85149; // Rojo suave
+//   --shadow-color: rgba(29, 161, 242, 0.4); // Sombra azul suave
+// }
+
+/* -------------------------------------------
+   PALETA 2: Gris Oscuro y Verde Neón (TikTok)
+   -------------------------------------------
+*/
+// :root {
+//   --ion-background-color: #1A1A1A;
+//   --ion-text-color: #E0E0E0;
+//   --accent-color: #39FF14; // Verde neón
+//   --primary-color: #00FFFF; // Cyan vibrante
+//   --background-color: #333333; // Fondo de componentes
+//   --text-color: #FAFAFA; // Texto casi blanco
+//   --warning-color: #FF1744; // Rojo para alertas
+//   --shadow-color: rgba(57, 255, 20, 0.4); // Sombra verde neón
+// }
+
+/* -------------------------------------------
+   PALETA 3: Oscura con Acento Dorado
+   -------------------------------------------
+*/
+// :root {
+//   --ion-background-color: #101010;
+//   --ion-text-color: #FAFAFA;
+//   --accent-color: #FFD700; // Dorado brillante
+//   --primary-color: #FFD700; // Mismo dorado para botones
+//   --background-color: #424242; // Fondo de componentes
+//   --text-color: #FFFFFF; // Texto blanco puro
+//   --warning-color: #FF8F00; // Naranja para alertas
+//   --shadow-color: rgba(255, 215, 0, 0.4); // Sombra dorada suave
+// }
+
+
+/* -------------------------------------------
+   PALETA 3: Gris Oscuro y Amarillo
+   -------------------------------------------
+*/
+//  :root {
+//   --ion-background-color: #121212; // Fondo negro suave
+//   --ion-text-color: #FAFAFA; // Blanco puro para el texto
+//   --accent-color: #FFC400; // Amarillo brillante para acentos
+//   --primary-color: #FFC400; // Amarillo brillante para botones
+//   --background-color: #424242; // Fondo de componentes gris intermedio
+//   --text-color: #FFFFFF; // Texto blanco puro
+//   --warning-color: #D50000; // Rojo oscuro para advertencias
+//   --shadow-color: rgba(255, 196, 0, 0.4); // Sombra amarilla suave
+// }
+
+
+/* -------------------------------------------
+   PALETA 3: Neón Verde y Azul
+   -------------------------------------------
+*/
+// :root {
+//   --ion-background-color: #1C1C1C; // Fondo gris oscuro
+//   --ion-text-color: #E0E0E0; // Gris claro para el texto
+//   --accent-color: #00E676; // Verde neón para acentos
+//   --primary-color: #00B0FF; // Azul eléctrico para botones
+//   --background-color: #333333; // Fondo de componentes gris oscuro
+//   --text-color: #FAFAFA; // Texto blanco casi puro
+//   --warning-color: #FF1744; // Rojo fuerte para advertencias
+//   --shadow-color: rgba(0, 230, 118, 0.4); // Sombra verde neón suave
+// }
+
+
+/* -------------------------------------------
+   PALETA 3:  Paleta provisional
+   -------------------------------------------
+*/
+ :root {
+    --ion-background-color: #101010; // Fondo negro profundo
+    --ion-text-color: #FAFAFA; // Blanco casi puro para el texto
+   --accent-color: #FF4081; // Rosa neón para acentos
+    --primary-color: #304FFE; // Azul marino brillante para botones
+    --background-color: #1A1A1A; // Fondo de componentes negro grisáceo
+    --text-color: #FFFFFF; // Texto blanco puro
+   --warning-color: #FF5252; // Rojo suave para advertencias
+    --shadow-color: rgba(255, 64, 129, 0.4); // Sombra rosa neón suave
+  }
+ 
+

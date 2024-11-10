@@ -1,0 +1,15 @@
+<ion-content>
+  <div class="roulette-container">
+    <div [class.spinning]="isSpinning" class="icon-container" (click)="girarRuleta()">
+      <ion-icon [name]="currentIcon" class="roulette-icon"></ion-icon>
+    </div>
+  </div>
+
+  <!-- Modal de recompensa -->
+  <app-reward-modal
+    *ngIf="showRewardModal"
+    [rewardIcon]="rewardIcon"
+    [rewardName]="rewardName"
+    (close)="closeRewardModal()">
+  </app-reward-modal>
+</ion-content>

@@ -1,0 +1,17 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Minijuegos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-card *ngFor="let minijuego of minijuegos" (click)="openMinijuego(minijuego)">
+      <ion-card-header>
+        <ion-icon [name]="minijuego.icono" slot="start"></ion-icon>
+        <ion-card-title>{{ minijuego.nombre }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>{{ minijuego.descripcion }}</ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>
